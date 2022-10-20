@@ -19,5 +19,9 @@ public class Main {
         } else {
             System.out.println("Boa noite");
         }
+        double n = 53.23456700;
+
+        System.out.printf("measue %.8f \n", n);
+        System.out.printf("rounded %.2f \n", n);
     }
 }
